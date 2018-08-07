@@ -1,4 +1,4 @@
-# Types of Machine Learning
+# Chapter 2: Types of Machine Learning
 >Machine Learning is a field of Mathematics and Computer Science, that gives Machines or Computers the ability to learn. - Wikipedia
 
 Now, that was an obvious definition, but what does it mean??? In order to understand Machine Learning, let us consider a real-life example. Let us imagine that we have the temperature data for 7 days and we wish to predict what would the temperature would be like on the eighth day. Let us first consider the following imaginary data:
@@ -13,4 +13,5 @@ Days  Temperatures
 7          33.1
 ```
 ![Plot of Temperature against Days](https://github.com/koderunners/Machine-Learning-MOOC/blob/master/1_Introduction_to_Machine_Learning/Assets/figure_1.png)
-From the above visualization, we can see that the temperature increases almost linearly with the passing days. Thus we can approximate the temperature to be a linear function of the number of days, i.e, if we consider the temperature to be ```y``` and number of days to be ```x```, then the linear function can be represented as ```y = m * x + c```
+
+From the above visualization, we can see that the temperature increases almost linearly with the passing days. Thus we can approximate the temperature to be a linear function of the number of days, i.e, if we consider the temperature to be ```y``` and number of days to be ```x```, then the linear function can be represented as ```y = m * x + c```, which is basically the equation of a straight line where ```m``` is the slope of the line and ```c``` is the y-intercept of the line. We need to find the straight line which fits the given data best, i.e, the value of ```m``` and ```y``` for which the line is the best fit for the best data. Once we have the optimal value of ```m``` and ```c```, we can simply plug the value of ```x```, which is the eighth day in this case and get the predicted temperature on that day. This type of prediction algorithm is called **Linear Regression**.
