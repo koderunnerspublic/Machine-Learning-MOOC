@@ -12,3 +12,5 @@ Days  Temperatures
 6          32.9
 7          33.1
 ```
+![Plot of Temperature against Days](https://github.com/koderunners/Machine-Learning-MOOC/blob/master/1_Introduction_to_Machine_Learning/Assets/figure_1.png)
+From the above visualization, we can see that the temperature increases almost linearly with the passing days. Thus we can approximate the temperature to be a linear function of the number of days, i.e, if we consider the temperature to be ```y``` and number of days to be ```x```, then the linear function can be represented as ```y = m * x + c```
