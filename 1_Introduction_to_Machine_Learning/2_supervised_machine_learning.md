@@ -30,6 +30,8 @@ The above plot is an example of Linear Regression, the red line representing the
 Linear regression can not only be done on linear features, but also be used on polynomial features which lets the model learn more complex functions such as the one shown above.
 Regression problems are a subset a type of Machine Learning problems known as **Supervised Learning** problems. In Supervised Learning, we train an algorithm which learns the function that best approximates the relation between the input data (independent variable) and the given output data (dependent variable).
 Besides Regression, **Classification** is another type of Supervised Learning problem in which the algorithm predicts **discrete values** or **classes** instead of real values. Classification problems are widely used in real world in many applications, for example, classifying spam and non-spam emails, classifying and identification of images, object detection, face recognition and many other applications.
+Let us consider a sample hypothetical data containing positive(1) and negative(0) labels. Below is the plot of the data.
+
 **Examples of Real World Classification Problems:**
 1. [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer)
 2. [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
