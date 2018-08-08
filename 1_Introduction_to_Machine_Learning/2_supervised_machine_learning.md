@@ -32,9 +32,13 @@ Regression problems are a subset a type of Machine Learning problems known as **
 Besides Regression, **Classification** is another type of Supervised Learning problem in which the algorithm predicts **discrete values** or **classes** instead of real values. Classification problems are widely used in real world in many applications, for example, classifying spam and non-spam emails, classifying and identification of images, object detection, face recognition and many other applications.
 Let us consider a sample hypothetical data containing positive(1) and negative(0) labels. Below is the plot of the data.
 
-![Plot of Temperature against Days with Linear Regression](https://github.com/koderunners/Machine-Learning-MOOC/blob/master/1_Introduction_to_Machine_Learning/Assets/figure_4.png)
+![Plot of Classification Data](https://github.com/koderunners/Machine-Learning-MOOC/blob/master/1_Introduction_to_Machine_Learning/Assets/figure_4.png)
 
 As we can see from the above data, that it is linearly seperable. We can train a **Logistic Regression** Algorithm which is a classification model derived from Linear Regression.
+
+![Result of Logistic Regression](https://github.com/koderunners/Machine-Learning-MOOC/blob/master/1_Introduction_to_Machine_Learning/Assets/figure_5.png)
+
+The above visualization shows the plot of the decision boundary regions that linearly seperates the two classes of data.
 
 **Examples of Real World Classification Problems:**
 1. [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer)
